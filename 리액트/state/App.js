@@ -13,6 +13,12 @@ function App() {
      </div>
 
     <button onClick={ () => {
+      let copyAbc = [...title];
+      copyAbc.sort();
+      changeTitle(copyAbc);
+    }}>글자순 정렬</button>
+
+    <button onClick={ () => {
       let copy = [...title];
       copy[0] = '국내여행 리뷰';
       changeTitle(copy);
