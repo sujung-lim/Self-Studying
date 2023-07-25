@@ -1,0 +1,26 @@
+.black-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: sandybrown;
+  color: white;
+  padding: 0 20px 0 20px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+
+
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid goldenrod;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+}
